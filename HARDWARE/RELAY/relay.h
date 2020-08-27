@@ -13,7 +13,7 @@
 //Copyright(C) 广州市星翼电子科技有限公司 2009-2019
 //All rights reserved									  
 ////////////////////////////////////////////////////////////////////////////////// 
-#define RELAY   PBout(2)	// PB2
+#define RELAY   PBout(2)	// PB2   读取PB2电平
 
 void RELAY_Init(void);//初始化
 void relay_on(void);

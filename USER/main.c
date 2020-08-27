@@ -12,7 +12,7 @@
  {
 	u8 t;
 	u8 len;	
-	u16 static times1=0;  
+	u16 static times1=0;   //记录次数
   u16 static times2=0; 
   u16 static times3=0; 	 
  	SystemInit();//系统时钟等初始化

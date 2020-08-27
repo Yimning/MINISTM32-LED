@@ -16,11 +16,11 @@
 //V1.1修改说明
 //修改按键扫描函数，使整个代码可以支持SWD下载。
 //////////////////////////////////////////////////////////////////////////////////	 
-typedef enum 
+typedef enum //枚举值
 {  
 	Button_KEY0 = 0,
 	Button_KEY1 = 1,
-	Button_WAKEUP = 2
+	Button_WAKEUP = 2 
 } Button_TypeDef;
 
 typedef struct  
